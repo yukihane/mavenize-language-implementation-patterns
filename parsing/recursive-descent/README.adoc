@@ -1,0 +1,16 @@
+## 使い方
+
+[source]
+----
+mvn clean compile exec:java
+----
+
+正常終了した場合は特に何も出力されません。
+(パースできなかった場合は例外を投げています)
+
+
+## 備考
+
+`src/main/antlr3/NameList.g` は、 `antlr3-maven-plugin` を用いてビルドしようとするとエラーになりました。
+ビルド時に必要ないので、ビルド対象から外しています。
+(ちなみに `antlr4-maven-plugin` ではちゃんとびるどできました)
