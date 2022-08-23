@@ -43,6 +43,6 @@ TODO
 
 |p.29
 |parsing/lexer
-|p.29 にある通り、このコードは起動時に引数を要求します。 `mvn compile exec:java -Dexec.args='[a, b ]'` のように指定してください。
+|
 
 |===
