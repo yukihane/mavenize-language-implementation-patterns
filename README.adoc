@@ -32,16 +32,16 @@ mvn clean compile exec:java
 TODO
 
 
-## 章とコードの対応づけ
+## 書籍の説明箇所とコードの対応づけ
 
 [cols="3", option="header"]
 |===
 |ページ
-|章, 節
 |ディレクトリ
+|コメント
 
 |p.29
-|2.4 文から字句を抽出する
 |parsing/lexer
+|このコードは起動時に引数を要求します。 `mvn exec:java -Dexec.args='[a,b ]'` のように指定してください。
 
 |===
