@@ -32,7 +32,6 @@
         </executions>
         <configuration>
           <mainClass>Test</mainClass>
-          <commandlineArgs>'[a, b ]'</commandlineArgs>
         </configuration>
       </plugin>
     </plugins>
