@@ -14,6 +14,28 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
+    <exec-maven-plugin.version>3.1.0</exec-maven-plugin.version>
   </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>${exec-maven-plugin.version}</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>java</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <mainClass>Test</mainClass>
+          <commandlineArgs>'[a, b ]'</commandlineArgs>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 
 </project>
