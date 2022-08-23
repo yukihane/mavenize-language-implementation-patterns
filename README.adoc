@@ -35,15 +35,16 @@ TODO
 
 ## 書籍の説明箇所とコードの対応づけ
 
-[cols="3", option="header"]
+[cols="2", option="header"]
 |===
 |ページ
 |ディレクトリ
-|コメント
 
 |p.29
 |parsing/lexer
-|
+
+|p.35
+|parsing/recursive-descent
 
 |===
 

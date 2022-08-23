@@ -49,7 +49,6 @@
         </executions>
         <configuration>
           <mainClass>Test</mainClass>
-          <commandlineArgs>'[Hello,Codeling]'</commandlineArgs>
         </configuration>
       </plugin>
     </plugins>
