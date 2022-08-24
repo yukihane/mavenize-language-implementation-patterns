@@ -48,6 +48,33 @@ TODO
 
 |===
 
-## 付録: オリジナルの Ant を使うには
+## 付録
+
+### オリジナルの Ant を使うには
 
 `build-macros.xml` の 62 行目で Java のバージョンを指定していますが、 `1.5` と古いので、ここを更新すれば動作するはずです。
+
+### ANTLR3.2 は Java8 に対応していない
+
+ソースコードには `antlr-3.2.jar` が同梱されていますが、どうやら Java7 までにしか対応していないようです。
+
+Java17 で実行すると次のようなエラーが出ました。
+[source]
+----
+internal error: Can't get property indirectDelegates using method get/isIndirectDelegates from org.antlr.tool.Grammar instance : java.lang.NullPointerException
+----
+検索してみると、このバージョンは Java7 までにしか対応していないようです。
+
+* https://stackoverflow.com/a/22367682/4506703
+
+https://www.antlr3.org/download.html[公式サイト]から最新版(これを書いた時点では `3.5.3` でした)をダウンロードしてそれを利用する必要があります。
+
+ちなみにコマンドラインでの実行方法はこちらに説明があります。
+
+* https://theantlrguy.atlassian.net/wiki/spaces/ANTLR3/pages/2687267/How+do+I+use+ANTLR+v3+from+the+command+line[How do I use ANTLR v3 from the command line? - ANTLR 3 - Confluence]
+
+### サンプルコードが ANTLR3 で実行できない
+
+理由がわからないので Stack Overflow で質問しています。
+
+* https://stackoverflow.com/q/73476914/4506703
