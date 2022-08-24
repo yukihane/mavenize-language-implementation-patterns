@@ -14,3 +14,6 @@ mv -v code/parsing/multi/*.g parsing/multi/src/main/antlr3/
 
 mv -v code/parsing/backtrack/*.java parsing/backtrack/src/main/java/
 mv -v code/parsing/backtrack/*.g parsing/backtrack/src/main/antlr3/
+
+mv -v code/parsing/memoize/*.java parsing/memoize/src/main/java/
+mv -v code/parsing/memoize/*.g parsing/memoize/src/main/antlr3/
