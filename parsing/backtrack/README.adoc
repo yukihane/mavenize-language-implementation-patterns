@@ -1,0 +1,6 @@
+## 使い方
+
+[source]
+----
+mvn clean compile exec:java -Dexec.args='[a,b]=[c,d]'
+----
