@@ -21,3 +21,5 @@ mv -v code/parsing/memoize/*.g parsing/memoize/src/main/antlr3/
 mv -v code/parsing/antlr/Test.java parsing/antlr/src/main/java/
 mv -v code/parsing/antlr/*.g parsing/antlr/src/main/antlr3/
 mv -v code/parsing/antlr/box parsing/antlr/
+
+mv -v code/IR/Homo/*.java IR/Homo/src/main/java
