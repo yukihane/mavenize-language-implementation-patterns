@@ -84,6 +84,9 @@ TODO
 |p.130
 |symtab/nested
 
+|p.143
+|symtab/aggr
+
 |===
 
 ## 付録

@@ -62,3 +62,8 @@ mkdir -p symtab/nested/src/main/{java,antlr3}
 mv -v code/symtab/nested/*g symtab/nested/src/main/antlr3
 mv -v code/symtab/nested/*.cymbol symtab/nested/
 mv -v code/symtab/nested/{BaseScope.java,BuiltInTypeSymbol.java,GlobalScope.java,LocalScope.java,MethodSymbol.java,Scope.java,Symbol.java,SymbolTable.java,Test.java,Type.java,VariableSymbol.java} symtab/nested/src/main/java
+
+mkdir -p symtab/aggr/src/main/{java,antlr3}
+mv -v code/symtab/aggr/*.g symtab/aggr/src/main/antlr3
+mv -v code/symtab/aggr/*.cymbol symtab/aggr
+mv -v code/symtab/aggr/{BaseScope.java,BuiltInTypeSymbol.java,GlobalScope.java,LocalScope.java,MethodSymbol.java,Scope.java,ScopedSymbol.java,StructSymbol.java,Symbol.java,SymbolTable.java,Test.java,Type.java,VariableSymbol.java} symtab/aggr/src/main/java
