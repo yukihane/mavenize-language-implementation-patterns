@@ -31,3 +31,7 @@ mv -v code/IR/Hetero/*.java IR/Hetero/src/main/java
 mv -v code/walking/embedded/*.java walking/embedded/src/main/java
 
 mv -v code/walking/visitor/*.java walking/visitor/src/main/java
+
+mkdir -p walking/tree-grammar/src/main/{java,antlr3}
+mv -v code/walking/tree-grammar/{AddNode.java,ExprNode.java,PrintNode.java,Test.java,VectorNode.java,AssignNode.java,IntNode.java,StatListNode.java,VarNode.java,DotProductNode.java,MultNode.java,StatNode.java,VecMathNode.java} walking/tree-grammar/src/main/java
+mv -v code/walking/tree-grammar/*.g walking/tree-grammar/src/main/antlr3
