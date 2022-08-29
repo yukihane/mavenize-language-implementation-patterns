@@ -58,6 +58,9 @@ TODO
 |p.83
 |IR/Homo
 
+|p.85
+|IR/Normalized
+
 |===
 
 ## 付録
