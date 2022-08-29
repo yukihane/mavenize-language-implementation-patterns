@@ -1,0 +1,17 @@
+## 使い方
+
+入力ファイルは4ファイル(t1, t2, u1, u2)用意されています。
+
+p.111
+
+[source]
+----
+mvn clean compile exec:java -Dexec.mainClass=Test < t1
+----
+
+p.112
+
+[source]
+----
+mvn clean compile exec:java -Dexec.mainClass=Test2 < u1
+----

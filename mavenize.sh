@@ -47,3 +47,8 @@ mkdir -p walking/tree-grammar/src/main/{java,antlr3}
 mv -v code/walking/tree-grammar/{AddNode.java,ExprNode.java,PrintNode.java,Test.java,VectorNode.java,AssignNode.java,IntNode.java,StatListNode.java,VarNode.java,DotProductNode.java,MultNode.java,StatNode.java,VecMathNode.java} walking/tree-grammar/src/main/java
 mv -v code/walking/tree-grammar/*.g walking/tree-grammar/src/main/antlr3
 mv -v code/walking/tree-grammar/t1 walking/tree-grammar/
+
+mkdir -p walking/patterns/src/main/{java,antlr3}
+mv -v code/walking/patterns/*.g walking/patterns/src/main/antlr3
+mv -v code/walking/patterns/Test*.java walking/patterns/src/main/java
+mv -v code/walking/patterns/{t1,t2,u1,u2} walking/patterns/

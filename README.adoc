@@ -73,6 +73,9 @@ TODO
 |p.105
 |walking/tree-grammar
 
+|p.109
+|walking/patterns
+
 |===
 
 ## 付録
