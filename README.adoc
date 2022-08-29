@@ -64,6 +64,9 @@ TODO
 |p.87
 |IR/Hetero
 
+|p.99
+|walking/embedded
+
 |===
 
 ## 付録
