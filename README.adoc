@@ -61,6 +61,9 @@ TODO
 |p.85
 |IR/Normalized
 
+|p.87
+|IR/Hetero
+
 |===
 
 ## 付録

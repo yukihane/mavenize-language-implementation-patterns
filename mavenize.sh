@@ -25,3 +25,5 @@ mv -v code/parsing/antlr/box parsing/antlr/
 mv -v code/IR/Homo/*.java IR/Homo/src/main/java
 
 mv -v code/IR/Normalized/*.java IR/Normalized/src/main/java
+
+mv -v code/IR/Hetero/*.java IR/Hetero/src/main/java
