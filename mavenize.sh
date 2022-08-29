@@ -29,3 +29,5 @@ mv -v code/IR/Normalized/*.java IR/Normalized/src/main/java
 mv -v code/IR/Hetero/*.java IR/Hetero/src/main/java
 
 mv -v code/walking/embedded/*.java walking/embedded/src/main/java
+
+mv -v code/walking/visitor/*.java walking/visitor/src/main/java

@@ -67,6 +67,9 @@ TODO
 |p.99
 |walking/embedded
 
+|p.101
+|walking/visitor
+
 |===
 
 ## 付録
