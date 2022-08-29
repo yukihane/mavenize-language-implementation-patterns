@@ -67,3 +67,8 @@ mkdir -p symtab/aggr/src/main/{java,antlr3}
 mv -v code/symtab/aggr/*.g symtab/aggr/src/main/antlr3
 mv -v code/symtab/aggr/*.cymbol symtab/aggr
 mv -v code/symtab/aggr/{BaseScope.java,BuiltInTypeSymbol.java,GlobalScope.java,LocalScope.java,MethodSymbol.java,Scope.java,ScopedSymbol.java,StructSymbol.java,Symbol.java,SymbolTable.java,Test.java,Type.java,VariableSymbol.java} symtab/aggr/src/main/java
+
+mkdir -p symtab/class/src/main/{java,antlr3}
+mv -v code/symtab/class/*.g symtab/class/src/main/antlr3
+mv -v code/symtab/class/*.cymbol symtab/class
+mv -v code/symtab/class/{BaseScope.java,BuiltInTypeSymbol.java,ClassSymbol.java,CymbolAST.java,CymbolErrorNode.java,GlobalScope.java,LocalScope.java,MethodSymbol.java,Scope.java,ScopedSymbol.java,Symbol.java,SymbolTable.java,Test.java,Type.java,VariableSymbol.java} symtab/class/src/main/java

@@ -87,6 +87,9 @@ TODO
 |p.143
 |symtab/aggr
 
+|p.152
+|symtab/class
+
 |===
 
 ## 付録
