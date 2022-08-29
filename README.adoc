@@ -76,6 +76,9 @@ TODO
 |p.109
 |walking/patterns
 
+|p.125
+|symtab/monolithic
+
 |===
 
 ## 付録

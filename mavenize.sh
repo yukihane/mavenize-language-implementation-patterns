@@ -52,3 +52,8 @@ mkdir -p walking/patterns/src/main/{java,antlr3}
 mv -v code/walking/patterns/*.g walking/patterns/src/main/antlr3
 mv -v code/walking/patterns/Test*.java walking/patterns/src/main/java
 mv -v code/walking/patterns/{t1,t2,u1,u2} walking/patterns/
+
+mkdir -p symtab/monolithic/src/main/{java,antlr3}
+mv -v code/symtab/monolithic/*.g symtab/monolithic/src/main/antlr3
+mv -v code/symtab/monolithic/{BuiltInTypeSymbol.java,Scope.java,Symbol.java,SymbolTable.java,Test.java,Type.java,VariableSymbol.java} symtab/monolithic/src/main/java
+mv -v code/symtab/monolithic/*.cymbol symtab/monolithic/
