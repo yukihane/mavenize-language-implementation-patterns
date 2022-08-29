@@ -81,6 +81,9 @@ TODO
 |p.125
 |symtab/monolithic
 
+|p.130
+|symtab/nested
+
 |===
 
 ## 付録

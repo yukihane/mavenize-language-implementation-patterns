@@ -1,0 +1,8 @@
+## 使い方
+
+p.134
+
+[source]
+----
+mvn clean compile exec:java < t2.cymbol
+----
