@@ -96,6 +96,9 @@ TODO
 |p.171
 |semantics/promote
 
+|p.176
+|semantics/safety
+
 |===
 
 ## 付録
