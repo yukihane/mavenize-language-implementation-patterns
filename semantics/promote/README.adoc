@@ -1,0 +1,8 @@
+## 使い方
+
+
+[source]
+----
+mvn clean compile exec:java -Dexec.args=t.cymbol
+----
+

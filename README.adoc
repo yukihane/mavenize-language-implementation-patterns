@@ -93,6 +93,9 @@ TODO
 |p.162
 |semantics/types
 
+|p.171
+|semantics/promote
+
 |===
 
 ## 付録
