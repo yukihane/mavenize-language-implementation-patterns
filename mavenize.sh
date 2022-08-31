@@ -72,3 +72,9 @@ mkdir -p symtab/class/src/main/{java,antlr3}
 mv -v code/symtab/class/*.g symtab/class/src/main/antlr3
 mv -v code/symtab/class/*.cymbol symtab/class
 mv -v code/symtab/class/{BaseScope.java,BuiltInTypeSymbol.java,ClassSymbol.java,CymbolAST.java,CymbolErrorNode.java,GlobalScope.java,LocalScope.java,MethodSymbol.java,Scope.java,ScopedSymbol.java,Symbol.java,SymbolTable.java,Test.java,Type.java,VariableSymbol.java} symtab/class/src/main/java
+
+
+mkdir -p semantics/types/src/main/{java,antlr3}
+mv -v code/semantics/types/*.g semantics/types/src/main/antlr3
+mv -v code/semantics/types/*.cymbol semantics/types
+mv -v code/semantics/types/{ArrayType.java,BaseScope.java,BuiltInTypeSymbol.java,ClassSymbol.java,CymbolAST.java,CymbolErrorNode.java,CymbolListener.java,GlobalScope.java,LocalScope.java,MethodSymbol.java,Scope.java,ScopedSymbol.java,StructSymbol.java,Symbol.java,SymbolTable.java,Test.java,Type.java,VariableSymbol.java} semantics/types/src/main/java

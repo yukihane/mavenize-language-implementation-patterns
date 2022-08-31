@@ -90,6 +90,9 @@ TODO
 |p.152
 |symtab/class
 
+|p.162
+|semantics/types
+
 |===
 
 ## 付録
