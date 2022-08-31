@@ -99,6 +99,9 @@ TODO
 |p.176
 |semantics/safety
 
+|p.183
+|semantics/oo
+
 |===
 
 ## 付録

@@ -89,3 +89,9 @@ mkdir -p semantics/safety/src/main/{java,antlr3}
 mv -v code/semantics/safety/*.g semantics/safety/src/main/antlr3
 mv -v code/semantics/safety/*.cymbol semantics/safety
 mv -v code/semantics/safety/{ArrayType.java,BaseScope.java,BuiltInTypeSymbol.java,ClassSymbol.java,CymbolAST.java,CymbolErrorNode.java,CymbolListener.java,GlobalScope.java,LocalScope.java,MethodSymbol.java,Scope.java,ScopedSymbol.java,StructSymbol.java,Symbol.java,SymbolTable.java,Test.java,Type.java,VariableSymbol.java} semantics/safety/src/main/java
+
+
+mkdir -p semantics/oo/src/main/{java,antlr3}
+mv -v code/semantics/oo/*.g semantics/oo/src/main/antlr3
+mv -v code/semantics/oo/*.cymbol semantics/oo
+mv -v code/semantics/oo/{BaseScope.java,BuiltInTypeSymbol.java,ClassSymbol.java,CymbolAST.java,CymbolErrorNode.java,CymbolListener.java,GlobalScope.java,LocalScope.java,MethodSymbol.java,PointerType.java,Scope.java,ScopedSymbol.java,Symbol.java,SymbolTable.java,Test.java,Type.java,VariableSymbol.java} semantics/oo/src/main/java
