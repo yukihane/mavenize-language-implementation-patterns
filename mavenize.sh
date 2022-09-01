@@ -105,3 +105,7 @@ mkdir -p interp/tree/src/main/{java,antlr3}
 mv -v code/interp/tree/*.g interp/tree/src/main/antlr3
 mv -v code/interp/tree/*.pie interp/tree
 mv -v code/interp/tree/{BaseScope.java,FunctionSpace.java,FunctionSymbol.java,GlobalScope.java,InterPie.java,Interpreter.java,InterpreterListener.java,LocalScope.java,MemorySpace.java,PieAST.java,PieErrorNode.java,ReturnValue.java,Scope.java,ScopedSymbol.java,StructInstance.java,StructSymbol.java,Symbol.java,VariableSymbol.java} interp/tree/src/main/java
+
+mkdir -p interp/asm/src/main/{java,antlr3}
+mv -v code/interp/asm/*.g interp/asm/src/main/antlr3
+mv -v code/interp/asm/{BytecodeAssembler.java,BytecodeDefinition.java,DisAssembler.java,FunctionSymbol.java,LabelSymbol.java} interp/asm/src/main/java
