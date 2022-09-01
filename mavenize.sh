@@ -109,3 +109,8 @@ mv -v code/interp/tree/{BaseScope.java,FunctionSpace.java,FunctionSymbol.java,Gl
 mkdir -p interp/asm/src/main/{java,antlr3}
 mv -v code/interp/asm/*.g interp/asm/src/main/antlr3
 mv -v code/interp/asm/{BytecodeAssembler.java,BytecodeDefinition.java,DisAssembler.java,FunctionSymbol.java,LabelSymbol.java} interp/asm/src/main/java
+
+mkdir -p interp/stack/src/main/{java,antlr3}
+mv -v code/interp/stack/*.g interp/stack/src/main/antlr3
+mv -v code/interp/stack/*.pcode interp/stack
+mv -v code/interp/stack/{BytecodeAssembler.java,BytecodeDefinition.java,DisAssembler.java,FunctionSymbol.java,Interpreter.java,LabelSymbol.java,StackFrame.java,StructSpace.java} interp/stack/src/main/java

@@ -111,6 +111,9 @@ TODO
 |p.226
 |interp/asm
 
+|p.231
+|interp/stack
+
 |===
 
 ## 付録
