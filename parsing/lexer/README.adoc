@@ -1,6 +1,8 @@
 ## 使い方
 
+p.29
+
 [source]
 ----
-mvn clean compile exec:java -Dexec.args='[a, b ]'
+mvn -q clean compile exec:java -Dexec.args="'[a, b ]'"
 ----
