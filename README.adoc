@@ -132,6 +132,9 @@ TODO
 |p.280
 |trans/ast
 
+|p.283
+|trans/ast-st
+
 |===
 
 ## 付録

@@ -140,3 +140,8 @@ mv -v code/trans/web/*.java trans/web/src/main/java
 mkdir -p trans/ast/src/main/java
 mv -v code/trans/ast/*.stg trans/ast
 mv -v code/trans/ast/*.java trans/ast/src/main/java
+
+mkdir -p trans/ast-st/src/main/{java,antlr3}
+mv -v code/trans/ast-st/*.g trans/ast-st/src/main/antlr3
+mv -v code/trans/ast-st/*.{cymbol,stg} trans/ast-st
+mv -v code/trans/ast-st/Test.java trans/ast-st/src/main/java
