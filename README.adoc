@@ -135,6 +135,9 @@ TODO
 |p.283
 |trans/ast-st
 
+|p.290
+|trans/sql
+
 |===
 
 ## 付録

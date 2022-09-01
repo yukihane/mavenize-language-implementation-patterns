@@ -145,3 +145,7 @@ mkdir -p trans/ast-st/src/main/{java,antlr3}
 mv -v code/trans/ast-st/*.g trans/ast-st/src/main/antlr3
 mv -v code/trans/ast-st/*.{cymbol,stg} trans/ast-st
 mv -v code/trans/ast-st/Test.java trans/ast-st/src/main/java
+
+mkdir -p trans/sql/src/main/java
+mv -v code/trans/sql/*.stg trans/sql
+mv -v code/trans/sql/*.java trans/sql/src/main/java

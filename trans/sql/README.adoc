@@ -1,0 +1,13 @@
+## 使い方
+
+p.302
+
+[source]
+----
+mvn -q clean compile exec:java -Dexec.mainClass=DBGen -Dexec.args=-sql
+----
+
+[source]
+----
+mvn -q clean compile exec:java -Dexec.mainClass=DBGen -Dexec.args=-java > PersonSerializer.java
+----
