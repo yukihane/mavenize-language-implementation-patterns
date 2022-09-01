@@ -12,7 +12,7 @@ mvn compile
 java -cp target/classes makefile go
 # java makefile clean に相当
 java -cp target/classes makefile clean
----
+----
 
 `makefile` クラスは `public` でないため `mvn` コマンドで実行できませんでした。
 そのためため上記のような実行方法で代替しました。
