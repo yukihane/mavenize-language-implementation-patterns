@@ -1,0 +1,11 @@
+--- src/main/java/Interpreter.java	2022-09-01 09:29:07.058401582 +0900
++++ src/main/java/Interpreter.java.new	2022-09-01 09:29:33.047012050 +0900
+@@ -93,7 +93,7 @@
+         if ( t.getType()!=PieParser.BLOCK ) {
+             listener.error("not a block: "+t.toStringTree());
+         }
+-        List<PieAST> stats = t.getChildren();
++        List<PieAST> stats = (List<PieAST>) t.getChildren();
+         for (PieAST x : stats) exec(x);
+     }
+ 

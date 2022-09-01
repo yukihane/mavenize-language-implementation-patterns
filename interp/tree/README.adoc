@@ -1,0 +1,25 @@
+## ビルド前処理
+
+書籍説明とAntlr3のバージョンが異なるため生成コードにも差異が出ているようで、そのままだとコンパイルエラーになります。
+
+おそらく次と同じ問題？
+
+* https://github.com/antlr/antlr3/issues/194[Antlr generated code invalid after upgrading from 3.2 to 3.5.2]
+
+細かい原因調査は行っていませんが、次のpatchを適用してダウンキャストすれば通ります:
+
+
+[source]
+----
+patch -p0 < Interpreter.patch
+----
+
+## 使い方
+
+p.208
+
+[source]
+----
+mvn clean compile exec:java -Dexec.args=forward.pie
+---
+

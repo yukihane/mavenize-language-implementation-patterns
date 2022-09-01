@@ -100,3 +100,8 @@ mkdir -p interp/syntax/src/main/{java,antlr3}
 mv -v code/interp/syntax/*.g interp/syntax/src/main/antlr3
 mv -v code/interp/syntax/*.q interp/syntax
 mv -v code/interp/syntax/{Interpreter.java,InterpreterListener.java,QInterp.java,ResultSet.java,Row.java,Table.java} interp/syntax/src/main/java
+
+mkdir -p interp/tree/src/main/{java,antlr3}
+mv -v code/interp/tree/*.g interp/tree/src/main/antlr3
+mv -v code/interp/tree/*.pie interp/tree
+mv -v code/interp/tree/{BaseScope.java,FunctionSpace.java,FunctionSymbol.java,GlobalScope.java,InterPie.java,Interpreter.java,InterpreterListener.java,LocalScope.java,MemorySpace.java,PieAST.java,PieErrorNode.java,ReturnValue.java,Scope.java,ScopedSymbol.java,StructInstance.java,StructSymbol.java,Symbol.java,VariableSymbol.java} interp/tree/src/main/java
