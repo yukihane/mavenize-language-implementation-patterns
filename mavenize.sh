@@ -129,3 +129,6 @@ mkdir -p trans/wiki/src/main/{java,antlr3}
 mv -v code/trans/wiki/*.g trans/wiki/src/main/antlr3
 mv -v code/trans/wiki/*.wiki trans/wiki
 mv -v code/trans/wiki/WikiToHTML.java trans/wiki/src/main/java
+
+mkdir -p trans/intro/src/main/java
+mv -v code/trans/intro/*.java trans/intro/src/main/java

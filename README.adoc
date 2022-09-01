@@ -123,6 +123,9 @@ TODO
 |p.265
 |trans/wiki
 
+|p.274
+|trans/intro
+
 |===
 
 ## 付録
