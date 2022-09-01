@@ -1,0 +1,8 @@
+## 使い方
+
+本書に明記なし
+
+[source]
+----
+mvn clean compile exec:java -Dexec.args=t.wiki
+----

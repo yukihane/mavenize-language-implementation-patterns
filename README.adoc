@@ -120,6 +120,9 @@ TODO
 |p.260
 |trans/make
 
+|p.265
+|trans/wiki
+
 |===
 
 ## 付録

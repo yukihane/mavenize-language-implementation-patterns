@@ -124,3 +124,8 @@ mkdir -p trans/make/src/main/{java,antlr3}
 mv -v code/trans/make/*.g trans/make/src/main/antlr3
 mv -v code/trans/make/{*.c,makefile} trans/make
 mv -v code/trans/make/{JavaGenerator.java,MakeGenerator.java,MakeSupport.java,Maker.java,StreamVacuum.java,Target.java} trans/make/src/main/java
+
+mkdir -p trans/wiki/src/main/{java,antlr3}
+mv -v code/trans/wiki/*.g trans/wiki/src/main/antlr3
+mv -v code/trans/wiki/*.wiki trans/wiki
+mv -v code/trans/wiki/WikiToHTML.java trans/wiki/src/main/java
