@@ -114,3 +114,13 @@ mkdir -p interp/stack/src/main/{java,antlr3}
 mv -v code/interp/stack/*.g interp/stack/src/main/antlr3
 mv -v code/interp/stack/*.pcode interp/stack
 mv -v code/interp/stack/{BytecodeAssembler.java,BytecodeDefinition.java,DisAssembler.java,FunctionSymbol.java,Interpreter.java,LabelSymbol.java,StackFrame.java,StructSpace.java} interp/stack/src/main/java
+
+mkdir -p interp/reg/src/main/{java,antlr3}
+mv -v code/interp/reg/*.g interp/reg/src/main/antlr3
+mv -v code/interp/reg/*.rcode interp/reg
+mv -v code/interp/reg/{BytecodeAssembler.java,BytecodeDefinition.java,DisAssembler.java,FunctionSymbol.java,Interpreter.java,LabelSymbol.java,StackFrame.java,StructSpace.java} interp/reg/src/main/java
+
+mkdir -p trans/make/src/main/{java,antlr3}
+mv -v code/trans/make/*.g trans/make/src/main/antlr3
+mv -v code/trans/make/{*.c,makefile} trans/make
+mv -v code/trans/make/{JavaGenerator.java,MakeGenerator.java,MakeSupport.java,Maker.java,StreamVacuum.java,Target.java} trans/make/src/main/java

@@ -114,6 +114,12 @@ TODO
 |p.231
 |interp/stack
 
+|p.240
+|interp/reg
+
+|p.260
+|trans/make
+
 |===
 
 ## 付録

@@ -1,0 +1,20 @@
+## 使い方
+
+p.260
+
+[source]
+----
+# java Maker makefile に相当
+mvn clean compile exec:java -Dexec.mainClass=Maker -Dexec.args=makefile
+mv -f makefile.java src/main/java
+mvn compile
+# java makefile go に相当
+java -cp target/classes makefile go
+# java makefile clean に相当
+java -cp target/classes makefile clean
+---
+
+`makefile` クラスは `public` でないため `mvn` コマンドで実行できませんでした。
+そのためため上記のような実行方法で代替しました。
+
+* https://github.com/mojohaus/exec-maven-plugin/issues/336
