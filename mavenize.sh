@@ -132,3 +132,7 @@ mv -v code/trans/wiki/WikiToHTML.java trans/wiki/src/main/java
 
 mkdir -p trans/intro/src/main/java
 mv -v code/trans/intro/*.java trans/intro/src/main/java
+
+mkdir -p trans/web/src/main/java
+mv -v code/trans/web/*.stg trans/web
+mv -v code/trans/web/*.java trans/web/src/main/java
