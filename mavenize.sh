@@ -136,3 +136,7 @@ mv -v code/trans/intro/*.java trans/intro/src/main/java
 mkdir -p trans/web/src/main/java
 mv -v code/trans/web/*.stg trans/web
 mv -v code/trans/web/*.java trans/web/src/main/java
+
+mkdir -p trans/ast/src/main/java
+mv -v code/trans/ast/*.stg trans/ast
+mv -v code/trans/ast/*.java trans/ast/src/main/java

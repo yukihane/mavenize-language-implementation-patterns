@@ -129,6 +129,9 @@ TODO
 |p.278
 |trans/web
 
+|p.280
+|trans/ast
+
 |===
 
 ## 付録
