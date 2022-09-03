@@ -4,5 +4,5 @@ p.283
 
 [source]
 ----
-mvn clean compile exec:java -Dexec.args=s.cymbol
+mvn -q clean compile exec:java -Dexec.args=s.cymbol
 ----

@@ -5,9 +5,9 @@ p.260
 [source]
 ----
 # java Maker makefile に相当
-mvn clean compile exec:java -Dexec.mainClass=Maker -Dexec.args=makefile
-mv -f makefile.java src/main/java
-mvn compile
+mvn -q clean compile exec:java -Dexec.mainClass=Maker -Dexec.args=makefile
+mv -fv makefile.java src/main/java
+mvn -q compile
 # java makefile go に相当
 java -cp target/classes makefile go
 # java makefile clean に相当

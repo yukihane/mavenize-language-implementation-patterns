@@ -4,5 +4,5 @@
 
 [source]
 ----
-mvn clean compile exec:java -Dexec.args=t.wiki
+mvn -q clean compile exec:java -Dexec.args=t.wiki
 ----

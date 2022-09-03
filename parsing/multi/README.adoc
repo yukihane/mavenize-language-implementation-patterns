@@ -4,6 +4,9 @@ p.40
 
 [source]
 ----
-mvn clean compile exec:java -Dexec.args='[a,b=c,[d,e]]'
-mvn clean compile exec:java -Dexec.args='[a,b=c,,[d,e]]'
+mvn -q clean compile exec:java -Dexec.args='[a,b=c,[d,e]]'
+----
+[source]
+----
+mvn -q clean compile exec:java -Dexec.args='[a,b=c,,[d,e]]'
 ----

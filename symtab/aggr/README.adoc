@@ -4,5 +4,5 @@ p.146
 
 [source]
 ----
-mvn clean compile exec:java < t2.cymbol
+mvn -q clean compile exec:java < t2.cymbol
 ----

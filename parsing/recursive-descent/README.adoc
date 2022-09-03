@@ -2,8 +2,11 @@
 
 [source]
 ----
-mvn clean compile exec:java -Dexec.args='[Hello,Codeling]'
-mvn clean compile exec:java -Dexec.args='[a,]'
+mvn -q clean compile exec:java -Dexec.args='[Hello,Codeling]'
+----
+[source]
+----
+mvn -q clean compile exec:java -Dexec.args='[a,]'
 ----
 
 本文 p.36 にあるとおり、正常終了した場合は特に何も出力されません。

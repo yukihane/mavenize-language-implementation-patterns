@@ -4,13 +4,13 @@ p.75
 
 [source]
 ----
-mvn clean compile exec:java -Dexec.args=box
+mvn -q clean compile exec:java -Dexec.args=box
 ----
 
 標準入力から取り込む場合:
 [source]
 ----
-mvn clean compile exec:java
+mvn -q clean compile exec:java
 ----
 
 本分にある通り、終了する場合は `Ctrl + D` 。

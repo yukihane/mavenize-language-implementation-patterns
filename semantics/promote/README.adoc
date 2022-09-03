@@ -3,6 +3,6 @@
 
 [source]
 ----
-mvn clean compile exec:java -Dexec.args=t.cymbol
+mvn -q clean compile exec:java -Dexec.args=t.cymbol
 ----
 

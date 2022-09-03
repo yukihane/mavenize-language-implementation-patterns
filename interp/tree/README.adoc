@@ -20,5 +20,5 @@ p.208
 
 [source]
 ----
-mvn clean compile exec:java -Dexec.args=forward.pie
+mvn -q clean compile exec:java -Dexec.args=forward.pie
 ----

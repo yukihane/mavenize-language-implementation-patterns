@@ -20,5 +20,5 @@ p.199
 
 [source]
 ----
-mvn clean compile exec:java -Dexec.args=t.q
+mvn -q clean compile exec:java -Dexec.args=t.q
 ----

@@ -6,12 +6,12 @@ p.111
 
 [source]
 ----
-mvn clean compile exec:java -Dexec.mainClass=Test < t1
+mvn -q clean compile exec:java -Dexec.mainClass=Test < t1
 ----
 
 p.112
 
 [source]
 ----
-mvn clean compile exec:java -Dexec.mainClass=Test2 < u1
+mvn -q clean compile exec:java -Dexec.mainClass=Test2 < u1
 ----

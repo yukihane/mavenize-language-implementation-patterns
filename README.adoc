@@ -27,6 +27,13 @@
 mvn clean compile exec:java
 ----
 
+`-q` オプションを追加すると、 Maven が出力するメッセージを抑制することができます。
+
+[source]
+----
+mvn -1 clean compile exec:java
+----
+
 場合によっては追加の引数が必要です。
 各ディレクトリの README を参照してください。
 
