@@ -4,9 +4,12 @@
 ----
 mvn -q clean compile exec:java -Dexec.args='[Hello,Codeling]'
 ----
+
+p.36
+
 [source]
 ----
-mvn -q clean compile exec:java -Dexec.args='[a,]'
+mvn -q clean compile exec:java -Dexec.args="'[a, ]'"
 ----
 
 本文 p.36 にあるとおり、正常終了した場合は特に何も出力されません。
@@ -17,4 +20,9 @@ mvn -q clean compile exec:java -Dexec.args='[a,]'
 
 `src/main/antlr3/NameList.g` は、 `antlr3-maven-plugin` を用いてビルドしようとするとエラーになりました。
 ビルド時に必要ないので、ビルド対象から外しています。
-(ちなみに `antlr4-maven-plugin` ではちゃんとびるどできました)
+(ちなみに `antlr4-maven-plugin` ではちゃんとビルドできました)
+
+https://stackoverflow.com/questions/73476914/#comment129756411_73476914[こちら] によると、実際には `fragment` (https://theantlrguy.atlassian.net/wiki/spaces/ANTLR3/pages/2687108/1.+Lexer[参考]) が必要なようです。
+
+ただしコンパイルを通したとて全体として整合性が採れるわけではありません。
+`NameList.g` は参考イメージでありあまり細かく気にしてもしょうがない、ということでしょう。
