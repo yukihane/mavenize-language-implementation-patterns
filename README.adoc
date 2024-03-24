@@ -31,7 +31,7 @@ mvn clean compile exec:java
 
 [source]
 ----
-mvn -1 clean compile exec:java
+mvn -q clean compile exec:java
 ----
 
 場合によっては追加の引数が必要です。
